@@ -2,10 +2,10 @@ name: gh-action-starter
 description: Test Workflow for GitHub action
 author: delphineuni
 version: 1.0.0
-branding: 
+branding:
   icon: 'docker'
-  color: 'gray-dark(
-
+  color: 'gray-dark'
+  
 runs:
   using: 'docker'
   image: 'Dockerfile'
