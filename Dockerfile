@@ -1,4 +1,4 @@
 FROM php:8.3-apache
-COPY ./app
+COPY . /app
 RUN make /app
 CMD echo "The job is done"
